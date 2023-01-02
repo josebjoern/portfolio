@@ -1,17 +1,14 @@
 .grid_1-1{
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     }
-.grid_1{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
+
+
 .grid_7{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
     header{
         position:sticky;

@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-h1, h2, h3, p, ul, li, a {
+h1, h2, h3, h4 p, ul, li, a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     margin: 10px;
@@ -19,6 +19,12 @@ h2{
 h3{
   font-size: 30px;
   text-align: center;
+  
+}
+h4{
+  font-size: 20px;
+  color: rgb(95, 36, 38);
+  padding: 10px
 }
 img {
     width: 100%;
@@ -28,12 +34,18 @@ img {
     object-fit: cover;
     align-self: stretch;
 }
+p{
+  padding: 10px;
+}
 
 footer{
   background-color: rgb(215, 200, 200);
   color: black;
   font-size: 15px;
   text-align: center;
+}
+body{
+  
 }
 .main-image{
   position: relative;

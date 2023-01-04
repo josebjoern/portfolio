@@ -1,42 +1,60 @@
 .grid_1-1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     }
+.grid_2-1{
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr;
+  background-color: rgb(240, 247, 237);
+  margin: 200px;
+  
+}
 .grid_3{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-row: 1fr 1fr;
+  padding:20px;
 }
 .grid_7{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
+  padding: 40px;
+  gap: 50px;
 }
     header{
-        position:sticky;
+        position:initial;
         top: 0;
         padding: 1rem 2rem;
         box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        justify-content: top;
         align-items: baseline;
+        background-color: white;
       }
       header .logo a{
         font-size: 2rem;
+        display: grid;
       }
       
       header nav ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         list-style: none;
         margin: 0;
         padding: 0;
         gap: 30px;
         overflow-x: auto;
       }
+      nav {
+        --less-than: 700;
+        --burger-lines: black;
+        --burger-border: var(--primary);
+      }
       a{
-        text-decoration: none;
+        text-decoration: solid;
         font-weight: 700;
         color: black;
       
@@ -44,9 +62,42 @@
       a:hover{
       color: black;
       }
+      
       main {
         max-width: 1500px;
         margin-inline: auto;
         padding-inline: 2rem;
         margin-block: 3rem;
+      }
+      @media (max-width: 700px){
+        header nav ul{
+          list-style-type: none;
+          display: inline-table;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+        }
+      }
+      @media (min-width: 600px) {
+        .grid_3 {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 20px;
+        }
+        .grid_2-1{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr; 
+          gap: 20px;
+        
+        }
+        .grid_1-1{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+        .grid_7{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-row: 1fr;
+          gap: 40px;
+        }
+
       }

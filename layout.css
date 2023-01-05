@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    
     }
 .grid_2-1{
   display: grid;
@@ -35,6 +36,12 @@
   padding: 30px;
   
 }
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
     header{
         position:initial;
         top: 0;
@@ -105,12 +112,13 @@
         .grid_1-1{
           display: grid;
           grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr;
+          
         }
         .grid_7{
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr;
           grid-row: 1fr;
-          
-
+        
       }
     }

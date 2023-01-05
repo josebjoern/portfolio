@@ -46,6 +46,7 @@ img {
     
      
 }
+
 p, li{
   font-family: 'Times New Roman', Times, serif;
   padding: 10px;
@@ -70,6 +71,7 @@ footer{
   font-size: 15px;
   text-align: center;
   padding-bottom: 20px;
+  margin: 20px;
   
 }
 

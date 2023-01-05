@@ -89,7 +89,7 @@
       }
      
 
-     @media (max-width: 700px){
+     @media (max-width: 500px){
         header nav ul{
           list-style-type: none;
           display: inline-table;
@@ -119,6 +119,7 @@
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr;
           grid-row: 1fr;
+          gap: 20px;
         
       }
     }

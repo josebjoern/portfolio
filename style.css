@@ -80,7 +80,7 @@ footer{
 }
 
 .main-image{
-  background: url(billeder/strand.jpg) center;
+  background: url(billeder/strand.webp) center;
   height: 400px;
   background-size: cover;
   color: white;

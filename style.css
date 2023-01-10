@@ -65,9 +65,16 @@ p, li{
 .col3{
   padding: 20px;
   margin: 30px;
-  text-align: left;
-  background:rgb(244, 239, 239);
+  text-align: center;
+  background:rgb(244, 239, 239) ;
   
+}
+.col4{
+
+  padding: 20px;
+  margin: 30px;
+  text-align: left;
+  background:rgb(244, 239, 239) ;
 }
 footer{
   background-color: rgb(215, 200, 200);
@@ -94,10 +101,11 @@ footer{
   border: none;
   color: black;
   text-align: left;
-  font-size: 19px;
+  font-size: 17px;
   transition: all 0.5s;
   cursor: pointer;
-  padding: 5%;
+  padding: 3%;
+  gap: 10px;
 
 }
 
